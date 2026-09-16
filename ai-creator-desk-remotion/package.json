@@ -1,0 +1,21 @@
+{
+  "name": "ai-creator-desk-remotion",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "remotion studio src/index.ts",
+    "build": "remotion render src/index.ts ToolReviewVideo out/video.mp4",
+    "upgrade": "remotion upgrade"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.525",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "remotion": "4.0.525"
+  },
+  "devDependencies": {
+    "@types/react": "18.3.1",
+    "@types/react-dom": "18.3.1",
+    "typescript": "5.5.4"
+  }
+}
